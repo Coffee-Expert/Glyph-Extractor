@@ -66,7 +66,7 @@ The **PDF Glyph Extractor** is a comprehensive tool designed to extract textual 
 ### Installation Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Coffee-Expert/PDF-Glyph-Extractor.git
+    git clone https://github.com/Coffee-Expert/Glyph-Extractor
     cd PDF-Glyph-Extractor
     ```
 2. Install required Python packages:
@@ -99,6 +99,7 @@ The **PDF Glyph Extractor** is a comprehensive tool designed to extract textual 
 
 ### 3. HTML Representation
 ![html rep 2](https://github.com/user-attachments/assets/6720b9fb-2597-47c7-b3a3-eb0b7ed8e0f1)
+![ss html rep](https://github.com/user-attachments/assets/7bb14333-5020-4e2c-a67c-1e910c543883)
 ![html rep](https://github.com/user-attachments/assets/db8fe808-e6a7-4786-9e40-c49bdbdb2f53)
 
 
