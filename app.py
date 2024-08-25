@@ -1,14 +1,14 @@
 import os
 import io
-import subprocess
-import hashlib
-from pdf2image import convert_from_path
-from PIL import Image
-import pytesseract
 import fitz  
+import hashlib
+import subprocess
+import pytesseract
+from PIL import Image
+from bs4 import BeautifulSoup
+from pdf2image import convert_from_path
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextBoxHorizontal, LTChar, LTTextLineHorizontal
-from bs4 import BeautifulSoup
 
 
 #Path Definition
@@ -30,12 +30,9 @@ os.makedirs(os.path.dirname(unicode_info_path), exist_ok=True)
 
 #Define Helper Functions
 
-
 def generate_glyph_code(unicode_val, x, y, page_num):
     
     #Generate a unique glyph code based on Unicode value, position, and page number.
-    
-    
     glyph_string = f"{unicode_val}-{x}-{y}-{page_num}"
     
     # Generate an MD5 hash of the string to create a unique glyph code
@@ -46,7 +43,6 @@ def generate_glyph_code(unicode_val, x, y, page_num):
 def extract_text_from_images(images_path):
    
     # Extract text from images using OCR (pytesseract).
-    
     print(" Extracting text from images (OCR)...")
     extracted_text = ""
     for image_file in os.listdir(images_path):
@@ -59,6 +55,7 @@ def extract_text_from_images(images_path):
     return extracted_text
 
 def extract_text_with_pdfminer(pdf_path):
+
     #Extract Text
     print(" Extracting text with PDFMiner...")
     output = io.StringIO()
@@ -99,11 +96,11 @@ def extract_pdf_metadata_with_xpdf(pdf_path):
     # Command to convert PDF to HTML with metadata
     cmd = [
         pdftohtml_path, 
-        '-meta',        # Include metadata in the output
-        '-noframes',    # Do not use frames in the HTML output
-        '-c',           # Generate complex output
-        '-hidden',      # Extract hidden text
-        '-xml',         # Generate XML output
+        '-meta',       
+        '-noframes',   
+        '-c',           
+        '-hidden',      
+        '-xml',         
         pdf_path, 
         html_dir
     ]
@@ -176,7 +173,6 @@ def convert_pdf_to_images(pdf_path, images_path, poppler_path):
      
    
    # Convert PDF pages to images using pdf2image.
-     
     print("Converting PDF pages to images...")
     images = convert_from_path(pdf_path, poppler_path=poppler_path)
     image_paths = []
@@ -188,6 +184,7 @@ def convert_pdf_to_images(pdf_path, images_path, poppler_path):
     return image_paths
 
 def generate_html_representation(pdf_path, images_path, output_html_path, glyphs):
+    
     """
     Generate an HTML representation of the PDF with hover information displaying glyph codes.
     """
