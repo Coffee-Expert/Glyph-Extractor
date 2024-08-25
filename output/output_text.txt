@@ -1,0 +1,225 @@
+ 
+ 
+Hindi Indic Input 3 Help 
+ 
+ 
+3 
+3.  Select Hindi Indic Input 3 from the shortcut menu that appears. The PC is now ready to start typing in Hindi. 
+ 
+               Note: If you are unable to view Language bar on your PC Click Here. 
+ 
+ 
+4. Supported Keyboards 
+ 
+Hindi Indic Input 3 supports various types of Keyboards. Click Settings Icon and select Keyboard. Choose keyboard 
+layout of your choice form list of available keyboards. 
+4.1.  Hindi Transliteration  
+User can type his message in Roman using the Standard English keyboard, which is transliterated on-the-fly 
+to Hindi. It works on the logic of phonetics and is most effective  when  user  write  the  word the way  it is 
+spoken.  
+4.1.1.  Keyboard Rules 
+cha 
+ka, ca 
+Vyanjan (Consonants) 
+क 
+च 
+ट 
+त 
+प 
+य 
+pa 
+Ta 
+ya 
+ta 
+ख 
+छ 
+ठ 
+थ 
+फ 
+र 
+ 
+kha 
+chha 
+Tha 
+tha 
+pha,fa 
+ra 
+ग 
+ज 
+ड 
+द 
+ब 
+ल 
+ga 
+ja 
+Da 
+da 
+ba 
+la 
+घ 
+झ 
+ढ 
+ध 
+भ 
+व 
+gha 
+jha 
+Dha 
+dha 
+bha 
+va,wa 
+ङ 
+ञ 
+ण 
+न 
+म 
+श 
+Nga 
+Nja 
+Na 
+na 
+ma 
+sha 
+ 
+ 
+Hindi Indic Input 3 Help 
+4 
+ष 
+ज्ञ 
+Sha 
+Gya,jNja,dny 
+स 
+  
+sa 
+  
+ha 
+  
+क्ष 
+  
+kSha,Xa  त्र 
+  
+  
+a 
+Swar (Vowels) 
+अ 
+ऊ 
+ओ 
+आ 
+oo,uu,U  ऋ 
+ऑ 
+o 
+aa 
+R 
+O 
+i 
+e 
+au,ou 
+ई 
+अ‍ॅ 
+अं 
+ee,ii,I 
+A 
+a^ 
+उ 
+ऐ 
+अः 
+ 
+ह 
+  
+इ 
+ए 
+औ 
+ 
+Tra 
+  
+u 
+ai,ei 
+aH 
+िा 
+ा  
+i 
+ा  
+ai,ei  ा  
+ee,ii,I  ा  
+ा  
+o 
+u 
+ा  
+au,ou  ाॅ 
+oo,uu,O  ा  
+ा  
+A 
+R 
+O 
+Anuswara, Visarga and Chandrabindi 
+H 
+ं   
+ं   
+^ 
+ं   
+M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Output 
+इततहास 
+इमली 
+Examples 
+Input 
+itihaas 
+imalee 
+Matras 
+ाा 
+ा  
+e 
+aa 
+Examples  
+Input 
+Output 
+aadamee  आदम  
+kaun 
+क न 
+Output 
+Examples 
+Input 
+sa^yam  संयम 
+द ःख 
+duHkh 
+हँस  
+haMs  
+Conjuncts 
+क्र 
+द्य 
+kr 
+dya 
+Examples 
+Input 
+arpaN 
+Output 
+अपपण 
+kShamaa,Xamaa  क्षमा 
+ 
+प्र 
+द्ध 
+pr 
+ddh 
+क़्त 
+द्वा  
+qt 
+dwa 
+क्त 
+क्स  
+kt 
+ksa,x 
+न्म 
+पप  
+nm 
+rpa 
+ 

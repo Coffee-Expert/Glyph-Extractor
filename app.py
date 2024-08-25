@@ -155,19 +155,22 @@ def extract_glyph_info(pdf_path):
                         for char in text_line:
                             if isinstance(char, LTChar):
                                 text = char.get_text()
-                                unicode_val = ord(text) if text else None
-                                glyph_code = generate_glyph_code(unicode_val, char.x0, char.y0, page_num)
-                                glyphs.append({
-                                    "glyph_code": glyph_code,
-                                    "text": text,
-                                    "unicode": unicode_val,
-                                    "font_size": char.size,
-                                    "x": char.x0,
-                                    "y": char.y0,
-                                    "page_num": page_num
-                                })
+                                if text:  # Ensure text is not empty
+                                    for single_char in text:  # Iterate over each character in the text
+                                        unicode_val = ord(single_char)
+                                        glyph_code = generate_glyph_code(unicode_val, char.x0, char.y0, page_num)
+                                        glyphs.append({
+                                            "glyph_code": glyph_code,
+                                            "text": single_char,
+                                            "unicode": unicode_val,
+                                            "font_size": char.size,
+                                            "x": char.x0,
+                                            "y": char.y0,
+                                            "page_num": page_num
+                                        })
     print(f"Total glyphs extracted: {len(glyphs)}")
     return glyphs
+
 
 def convert_pdf_to_images(pdf_path, images_path, poppler_path):
      
