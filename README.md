@@ -89,14 +89,17 @@ The **PDF Glyph Extractor** is a comprehensive tool designed to extract textual 
 3. The script will output the extracted text, glyph information, and HTML representation to the `output/` directory.
 
 ## Screenshots
-### 1. Extracted Text
-![Extracted Text](images/extracted_text.png)
+### 1. Project Code with Steps
+![ss code](https://github.com/user-attachments/assets/d80eb57d-dea9-4a75-9d72-359162b9102e)
 
-### 2. Glyph Information
-![Glyph Info](images/glyph_info.png)
+
+### 2. Glyph & Unicode Information
+![ss code 2](https://github.com/user-attachments/assets/b272dcf2-d3b6-45bb-98cc-890e0174d913)
+
 
 ### 3. HTML Representation
-![HTML Representation](images/html_representation.png)
+![html rep](https://github.com/user-attachments/assets/db8fe808-e6a7-4786-9e40-c49bdbdb2f53)
+
 
 ## Contributions
 Contributions to this project are welcome! Feel free to open an issue or submit a pull request on GitHub. Please follow the contribution guidelines when submitting new features or bug fixes.
