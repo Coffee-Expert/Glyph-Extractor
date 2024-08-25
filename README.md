@@ -94,11 +94,13 @@ The **PDF Glyph Extractor** is a comprehensive tool designed to extract textual 
 
 
 ### 2. Glyph & Unicode Information
-![ss code 2](https://github.com/user-attachments/assets/b272dcf2-d3b6-45bb-98cc-890e0174d913)
+![ss code 2](https://github.com/user-attachments/assets/d2e98312-89f1-4f94-8a94-5c0974ad61f5)
 
 
 ### 3. HTML Representation
+![html rep 2](https://github.com/user-attachments/assets/6720b9fb-2597-47c7-b3a3-eb0b7ed8e0f1)
 ![html rep](https://github.com/user-attachments/assets/db8fe808-e6a7-4786-9e40-c49bdbdb2f53)
+
 
 
 ## Contributions
