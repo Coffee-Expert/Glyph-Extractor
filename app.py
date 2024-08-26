@@ -1,6 +1,6 @@
 import os
 import io
-import fitz  
+import fitz  #PyMuPdf
 import hashlib
 import subprocess
 import pytesseract
@@ -184,7 +184,7 @@ def convert_pdf_to_images(pdf_path, images_path, poppler_path):
     return image_paths
 
 def generate_html_representation(pdf_path, images_path, output_html_path, glyphs):
-    
+
     """
     Generate an HTML representation of the PDF with hover information displaying glyph codes.
     """
